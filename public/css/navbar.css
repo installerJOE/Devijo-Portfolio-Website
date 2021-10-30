@@ -1,0 +1,41 @@
+/* Styling of the navigation bar */
+.navbar{
+    padding:20px;
+    background-color: #ffffff1a;
+    transition: 0.5s;
+}
+
+.title-bar{
+    padding:18px 30px;
+    background-color: #000;
+    color: #bcd2ff;
+}
+
+
+
+/* End of navbar styling */
+
+
+
+
+
+
+
+/* Styling for responsiveness */
+@media only screen and (max-width: 576px){
+    
+}
+@media only screen and (max-width: 767px){
+    
+}
+  
+@media only screen and (max-width: 991px) {
+    
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {   
+  
+   /*End of styling*/
+}
+@media only screen and (min-width: 1200px) {
+    
+}

@@ -1,0 +1,182 @@
+#div-testimonial-block{
+    padding-left:0px;
+    padding-right:0px;
+}
+/* .testimonial-container{
+    margin-top: 1.5em;
+    padding: 15px;
+} */
+.testimonial{
+    padding: 0px 15px;
+    /* position: relative; */
+}
+.testimonial > div{
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0.5px 4px #aaaaaa;
+    -webkit-box-shadow: 0px 0.5px 4px #aaaaaa;
+    padding: 1.2em 1.5em;
+    background-color: #f9f9f9;
+}
+.testimonial p{
+    font-size: 16px;
+    font-weight: normal;
+}
+.testimonial-body > div{
+    padding:20px 15px;
+}
+.testimonial:nth-child(even) > div > .testimonial-body > div:first-child{
+    float:right;
+}
+.testimonial:nth-child(even) > div > .testimonial-body > div:first-child > div:last-child{
+    text-align:right;
+}
+.passport{
+    padding: 4px !important;
+    margin-top: 20px !important;
+    border-radius: 50%;
+    border: 2px solid rgba(123, 157, 224, 0.45);
+    margin-bottom: 1em !important;
+}
+.passport > img{
+    border-radius: 50%;
+    width:100%;
+    margin:0px;
+}
+.passport-bearer{
+    text-align:left;
+    line-height: 1.5em;
+    margin-top: 1.75em !important;
+}
+.passport-bearer > p:first-child{
+    font-weight:bold;
+    margin-bottom: 0em;
+}
+.showReviewModal p{
+    font-size: 16px;
+}
+.testimonial .btn{
+    border-radius: 0px;
+    padding: 5px 30px;
+}
+/* .passport-bearer > a > i{
+    color: #7b9de0;
+    font-size: 21px;
+}
+.passport-bearer > a > i:hover{
+    color:#343b4a;
+} */
+.modal-passport-bearer p{
+    text-align:center !important;
+}
+#showReviewModal p{
+    font-size: 16px;
+    text-align: center; 
+}
+.modal-rating{
+    text-align: center !important;
+}
+.review_ratings .fa-star, .fa-star, .modal .fa-star{
+    color: #ffa51f;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 767px){
+    /* Style for testimonial block */
+    .testimonial-container{
+        margin-top: 0em;
+        padding: 10px;
+    }
+    .testimonial{
+        min-width: 100%;
+        padding-bottom: 1em !important
+    }
+    .passport{
+        width: 33.33%;
+    }
+    .passport > img{
+        /* border-radius: 50%;*/
+        /* width:100%; */
+        margin:0px;
+    }
+    .passport-bearer{
+        float:left;
+        line-height: 1.2em !important;
+    }
+    .testimonial div p{
+        text-align:center !important
+    }
+    .passport{
+        float:none !important;
+        margin-right:auto;
+        margin-left:auto
+    }
+    .passport-bearer{
+        width: 100%;
+        margin-bottom: 0.4em !important;
+        margin-top: 1.5em !important;
+    }    
+    .passport + div{
+        padding:0px 10px;
+        font-size: 14px !important;
+    }
+    .testimonial .bearer-status{
+        margin-top: 5px !important
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px){
+    /* Style for testimonial block */
+    .testimonial{
+        min-width: 50%;
+    }
+    .testimonial > div{
+        height: 380px !important;
+    }
+}
+
+@media only screen and (min-width: 991px){
+    /* Style for testimonial block */
+    .testimonial{
+        min-width: 50%;
+    }
+    .testimonial > div{
+        height: 320px !important;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .testimonial > div{
+        height: 400px !important;
+    }
+}
+@media only screen and (min-width: 430px) and (max-width: 575px) {
+    .testimonial > div{
+        height: 430px !important;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .testimonial > div{
+        padding: 10px;
+    }
+    .testimonial p{
+        font-size: 14px;
+    }
+    .passport{
+        margin-top: 10px !important;
+        /* border-radius: 50%; */
+    }
+    .testimonial-container{
+        margin-top: 0em;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    .testimonial > div{
+        padding: 15px;
+        height: 470px !important;
+    }
+    .testimonial{
+        min-width: 50% !important;
+        padding: 15px !important
+    }
+}

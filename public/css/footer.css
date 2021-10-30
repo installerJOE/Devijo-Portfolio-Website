@@ -1,0 +1,221 @@
+/* Styling of the footer */
+footer .row{
+    background-color: rgba(247, 250, 252, 0.4);
+    color:#000;
+    font-size: 16px;
+    line-height: 1.7em;
+    padding: 40px 80px;
+}
+footer p{
+    margin-bottom: 1em;
+    clear: left;
+    font-size: 15px;
+}
+.footer-header{
+    color:#ffa51f;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+.footer .form-control{
+    width: 100%
+}
+footer a{
+    margin-top:0.15em;
+    margin-bottom: 0.5em;
+    color: #000;
+    font-weight: 0px;
+    text-align: left;
+}
+footer a:hover{
+    color: #7b9de0;
+}
+.footer-hr{
+    width: 35px;
+    float: left;
+    margin-top:0.3em;
+    margin-bottom: 0.5em;
+    color:#ffa51f;
+    text-align: left;
+    border: 1px solid #ffa51f;
+    background-color: #ffa51f;
+}
+.btn-footer, footer .form-control{
+    padding: 10px 20px;
+    font-size:15px;
+    margin-top: 1em;
+    width:100%
+}
+footer .form-control{
+    padding: 14px 25px;
+}
+.socials-hr{
+    padding: 20px !important;
+    margin-top: -2em
+}
+.socials-hr hr{
+    width:100%;
+    background-color: #6087dc;
+    height:0.2px;
+    border-width:0.4px;
+    margin:auto;
+    margin-bottom:-1em;
+}
+footer .fab{
+    font-size: 18px;
+}
+footer{
+    background-color: rgba(247, 250, 252, 0.4);
+}
+.footer-about .logo-prefix{
+    font-size: 24px;
+    margin-top:3px;
+}
+.footer-about .logo-suffix{
+    font-size: 14px;
+}
+.footer-about .td-app-logo svg{
+    height:40px;
+}
+.footer-about .app-name{
+    font-weight:bold;
+}
+
+.footer-links > div{
+    padding-left: 3em;
+    padding-right: 1.5em
+}
+
+.footer-contact-us{
+    padding:6em 3em;
+    text-align:center;
+    background-color: #343B4A;
+    color:#fff;
+}
+.footer-about .logo-suffix{
+    font-weight:normal;
+}
+.footer-about-content p{
+    line-height:1.4em; 
+    text-align:left;
+}
+/* End of styling */
+
+@media only screen and (max-width: 350px){
+    .footer-about .logo-suffix{
+        margin-top:-5px;
+        font-weight:normal;
+    }
+}
+@media only screen and (max-width: 767px){
+    footer .row{
+        font-size: 15px;
+        line-height: 1.5em;
+        padding: 30px 15px;
+        text-align:center !important
+    }
+    .footer-contact-us{
+        padding:4em 2.5em;
+        font-size: 16px;
+    }
+    .footer-contact-us h2{
+        font-size:16px ;
+        line-height: 1.5em;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    .footer-header{
+        margin-top: 15px;
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .footer-hr{
+        width: 30px;
+        float:none;
+        margin:8px auto 15px auto;
+        
+    }
+    .socials-hr hr{
+        width:100%;
+    }
+    .socials-hr{
+        margin-top: -2.5em;
+        margin-bottom: -1.8em;
+    }
+    footer .fab{
+        font-size: 18px;
+    }
+    .div-copyright{
+        text-align: left !important;
+    }
+    .footer-about .logo-prefix{
+        font-size: 24px;
+    }
+    .footer-about .logo-suffix{
+        font-size: 14px;
+        margin-top:0px;
+        font-weight:normal;
+    }
+    .footer-about .td-app-logo svg{
+        height:40px;
+    }
+    .footer-about .app-name{
+        font-weight:bold;
+    }
+    .white-space{
+        display: none;
+    }
+    .footer-links > div{
+        padding-left: 0em;
+        padding-right:0em
+    }
+    .footer-about-content p{
+        text-align:center;
+    }
+    .footer-about .app-logo{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .footer-about .logo-prefix{
+        font-size: 24px;
+    }
+    .footer-about .logo-suffix{
+        font-size: 14px;
+        margin-top:0px;
+        font-weight:normal;
+    }
+}
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .col-md-1 {width: 8.33%;}
+   .col-md-2 {width: 16.66%;}
+   .col-md-3 {width: 25%;}
+   .col-md-4 {width: 33.33%;}
+   .col-md-5 {width: 41.66%;}
+   .col-md-6 {width: 50%;}
+   .col-md-7 {width: 58.33%;}
+   .col-md-8 {width: 66.66%;}
+   .col-md-9 {width: 75%;}
+   .col-md-10 {width: 83.33%;}
+   .col-md-11 {width: 91.66%;}
+   .col-md-12 {width: 100%;}
+
+   /*End of styling*/
+  }
+  @media only screen and (min-width: 1200px) {
+   .col-lg-1 {width: 8.33%;}
+   .col-lg-2 {width: 16.66%;}
+   .col-lg-3 {width: 25%;}
+   .col-lg-4 {width: 33.33%;}
+   .col-lg-5 {width: 41.66%;}
+   .col-lg-6 {width: 50%;}
+   .col-lg-7 {width: 58.33%;}
+   .col-lg-8 {width: 66.66%;}
+   .col-lg-9 {width: 75%;}
+   .col-lg-10 {width: 83.33%;}
+   .col-lg-11 {width: 91.66%;}
+   .col-lg-12 {width: 100%;}
+  
+}
