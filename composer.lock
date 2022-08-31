@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e38664dc2e1313269ea0f10ec8cbadf",
+    "content-hash": "603f955ecf3bc8be9c9f0001ac415d28",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5189,6 +5189,67 @@
     ],
     "packages-dev": [
         {
+            "name": "arielmejiadev/json-api-auth",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ArielMejiaDev/json-api-auth.git",
+                "reference": "80c33ac5ffc36e23145fb24a9145ccdb1c2381b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ArielMejiaDev/json-api-auth/zipball/80c33ac5ffc36e23145fb24a9145ccdb1c2381b1",
+                "reference": "80c33ac5ffc36e23145fb24a9145ccdb1c2381b1",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0|^7.0|^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0|^5.0|^6.0",
+                "phpunit/phpunit": "^8.0|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ArielMejiaDev\\JsonApiAuth\\JsonApiAuthServiceProvider"
+                    ],
+                    "aliases": {
+                        "JsonApiAuth": "ArielMejiaDev\\JsonApiAuth\\JsonApiAuthFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ArielMejiaDev\\JsonApiAuth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ariel Mejia Dev",
+                    "email": "arielmejiadev@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "It adds authentication scaffold for api authentication by tokens for packages like Passport or Sanctum.",
+            "homepage": "https://github.com/arielmejiadev/json-api-auth",
+            "keywords": [
+                "arielmejiadev",
+                "json-api-auth"
+            ],
+            "support": {
+                "issues": "https://github.com/ArielMejiaDev/json-api-auth/issues",
+                "source": "https://github.com/ArielMejiaDev/json-api-auth/tree/1.0.4"
+            },
+            "time": "2021-10-13T01:10:52+00:00"
+        },
+        {
             "name": "doctrine/instantiator",
             "version": "1.4.0",
             "source": {
@@ -7699,5 +7760,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
